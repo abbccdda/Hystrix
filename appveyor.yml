@@ -1,0 +1,9 @@
+install:
+  - cmd: java -version
+
+test_script:
+  - ./gradlew --info check
+cache:
+  - '%HOMEPATH%\.m2' 
+
+build: off
