@@ -1,3 +1,6 @@
+environment:
+  ANDROID_HOME: C:\Program Files (x86)\Android\android-sdk
+
 test_script:
   - gradlew.bat --info check
 cache:
