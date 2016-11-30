@@ -1,9 +1,6 @@
-install:
-  - cmd: java -version
-
 test_script:
-  - ./gradlew --info check
+  - gradlew.bat --info check
 cache:
-  - '%HOMEPATH%\.m2' 
+  - '.gradle' 
 
 build: off
